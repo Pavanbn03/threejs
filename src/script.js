@@ -185,9 +185,6 @@ setTimeout(() => {
     // x: Math.PI * 2,
     y: 10,
   });
-  gui.add(model.rotation, "x", 0, 10, 0.1);
-  gui.add(model.rotation, "y", 0, 10, 0.1);
-  gui.add(model.rotation, "z", 0, 10, 0.1);
 }, 1000);
 let previousTime = 0;
 const tick = () => {
